@@ -1,0 +1,17 @@
+To check whether the given number is divisible by 2, 4 or 8
+Take a=1
+b=1
+c=1
+d=1
+e=1
+f=a+10b+100c+1000d+10000e
+g=a+10b
+h=a+10b+100c
+Create a textbox to type the question
+create 5 input boxes linking a,b,c,d,e
+Write a code using If and Mod commands
+If(Mod(a,2)==0,"The number is divisible by 2","The number is not divisible by 2")
+If(Mod(g,4)==0,"The number is divisible by 4","The number is not divisible by 4")
+If(Mod(h,8)==0,"The number is divisible by 8","The number is not divisible by 8")
+Create a check box to link steps13,14 and 15.
+End
