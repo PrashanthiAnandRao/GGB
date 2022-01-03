@@ -1,0 +1,19 @@
+Prime factorisation by division method
+Create a text box "Prime factorisation"
+Create a slider a with max=99999 and minimum=2,increment=1
+PrimeFactors(a) //creates a list l1 which gives all the prime factors of a
+Create a list l2 using append command
+Append(1,Sequence(Product(l1,k),k,1,length(l1)))
+{Create a list of objects obtained by substitution of variables in the expression by elements        
+        of corresponding lists. If the number of variables matches the number of lists, each variable 
+            is taken from the following list. If the number of variables exceeds number of lists by one, 
+                the last variable takes values from 1, 2, 3, ..., k where k is the length of the shortest 
+                   list. Length of the resulting list is minimum of lengths of input lists.}
+listA=Zip(a/k,k,l2)
+Create a slider n with min=0 and max=length(l1), increment=1
+    {Create a text that contains a table of the list objects.}
+TableText({First(l1,n)},"rv")
+TableText({First(listA,n+1)},"|100_1vr")
+FormulaText(a)
+Create a input box linking a
+End.
