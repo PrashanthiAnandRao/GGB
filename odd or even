@@ -1,0 +1,11 @@
+To check whether the given numbers are odd or even
+Create a slider n from 1 to 1000000000000000000000000
+Create a input box linking n
+Hide the slider
+Create a text box "To check whether the given number is even or odd"
+If(n>=0,"Check whether the given number is even or odd","Remove the minus sign before the number then go to step-2")
+If(n<0,"Remove the minus sign before the number",If(Mod(n,2)==0,"The number is even","The number is odd"))
+Create a check box to show step-2
+End.
+
+https://www.geogebra.org/m/rgycka2v
