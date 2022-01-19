@@ -1,0 +1,10 @@
+// To find the smallest 5-digit number from the given digits
+Create a slider a, min=1,max=9,increment=1
+Create a slider b, min=1,max=9,increment=1
+Create a slider c, min=1,max=9,increment=1
+Create a slider d, min=1,max=9,increment=1
+Create a slider e, min=1,max=9,increment=1
+Create a text box "Find the smallest number using the digits a,b,c,d,e"
+Create a input box for a,b,c,d,e
+Use TAKE AND fIRST COMMAND 
+//end
