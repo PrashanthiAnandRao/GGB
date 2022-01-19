@@ -1,0 +1,11 @@
+// construct a number line
+create a textbox to show the "Number line"
+Create a slider a has min=0,max=,increment=1
+A=(a,0)
+O=(0,0)
+B=(0,1)
+u=Vector(O,B)
+w=A+u
+w=Vector(C,w)
+end
+https://www.geogebra.org/m/styppm6r
