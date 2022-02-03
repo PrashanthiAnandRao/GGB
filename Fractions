@@ -1,0 +1,18 @@
+Representation of fractions using blocks
+Create a slider o min=-5, max=0
+A_1=(o,0)
+A_2=(o+10,0)
+A_3=(o,8)
+A_4=(o+10,8)
+Polygon(A_1,A_2,A_4,A_3)
+Create a slider k=1 to 50 \\ numerator
+Create a slider r=1 to 50 \\ denominator
+l1=Sequence(A_1+i*(A_2-A_1)/r,i,1,r)
+l2=Sequence(A_3+i*(A_4-A_3)/r,i,1,r)
+l3=Sequence(Segment(Element(l1,i),Element(l2,i)),i,1,r)
+Polygon(A_1,Element(l1,k),Element(l2,k),A_3)
+Color the shaded pertion
+Create input box for numerator= by linking k
+Create a input box for denominator = by linking r
+Create a text box for the fraction \dfrac{k}{r}
+\\end
