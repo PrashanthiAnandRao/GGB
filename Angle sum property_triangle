@@ -1,0 +1,11 @@
+Angle sum property of a triangle
+Create a triangle using polygon tool
+Draw a midpoint to any of the two sides of the triangle.
+Find the angles ABC,BCA and CAB using the angle tool
+Use the slider to create an angle \delta , min=0, max=180 degrees,increment=1 degrees
+Use the rotate around point tool,and select the triangle(object) and the midpoint of the one 
+      side of the triangle in anticlockwise direction,
+      similarly repeat for the second side of the triangle in clockwise direction.
+Start the animation.
+\\End
+https://www.geogebra.org/m/xber52re
